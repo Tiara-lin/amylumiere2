@@ -145,36 +145,19 @@ const Post: React.FC<PostProps> = ({
 
   // Track post view when component mounts and when it's scrolled into view
   useEffect(() => {
-  const observer = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting && !hasTrackedView.current) {
-          hasTrackedView.current = true;
-          viewStartTime.current = Date.now();
-        } else if (!entry.isIntersecting && hasTrackedView.current) {
-          const viewDuration = (Date.now() - viewStartTime.current) / 1000;
-          const scrollPercentage = Math.round(
-            (entry.boundingClientRect.top / window.innerHeight) * 100
-          );
-          trackPostView(
-            postId,
-            username,
-            viewDuration,
-            Math.abs(scrollPercentage),
-            media?.type === 'video' ? 'video' : 'image'
-          );
-        }
-      });
-    },
-    {
-      threshold: 0.2,
-      rootMargin: '0px 0px -30% 0px',
-    }
-  );
-
+  const handleScroll = () => {
   if (postRef.current) {
-    observer.observe(postRef.current);
+    const top = postRef.current.getBoundingClientRect().top;
+    console.log(`[debug] ${postId} post top = ${top}px`);
+
+    if (!hasTrackedView.current && top >= 0 && top < 5) {
+      hasTrackedView.current = true;
+      viewStartTime.current = Date.now();
+      console.log(`[debug] ${postId} 🎯 post entered view`);
+    }
   }
+};
+
 
   const handleBeforeUnload = () => {
     if (hasTrackedView.current) {
@@ -189,16 +172,15 @@ const Post: React.FC<PostProps> = ({
     }
   };
 
+  window.addEventListener('scroll', handleScroll);
   window.addEventListener('beforeunload', handleBeforeUnload);
 
   return () => {
+    window.removeEventListener('scroll', handleScroll);
     window.removeEventListener('beforeunload', handleBeforeUnload);
 
-    if (postRef.current) {
-      observer.unobserve(postRef.current);
-    }
+    console.log(`[debug] ${postId} 🧹 unmounted (from scroll-based tracker)`);
 
-    // 元件 unmount 時補發一次 view event（避免停在最後一篇未觸發）
     if (hasTrackedView.current) {
       const viewDuration = (Date.now() - viewStartTime.current) / 1000;
       trackPostView(
@@ -211,6 +193,8 @@ const Post: React.FC<PostProps> = ({
     }
   };
 }, [postId, username, media?.type, trackPostView]);
+
+
 
 
   const displayedComments = showAllComments ? comments : comments.slice(0, 2);
