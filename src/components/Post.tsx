@@ -145,44 +145,73 @@ const Post: React.FC<PostProps> = ({
 
   // Track post view when component mounts and when it's scrolled into view
   useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting && !hasTrackedView.current) {
-            hasTrackedView.current = true;
-            viewStartTime.current = Date.now();
-          } else if (!entry.isIntersecting && hasTrackedView.current) {
-            // Calculate view duration and scroll percentage
-            const viewDuration = (Date.now() - viewStartTime.current) / 1000;
-            const scrollPercentage = Math.round(
-              (entry.boundingClientRect.top / window.innerHeight) * 100
-            );
-            
-            trackPostView(
-              postId,
-              username,
-              viewDuration,
-              Math.abs(scrollPercentage),
-              media?.type || 'image'
-            );
-          }
-        });
-      },
-      { threshold: 0.2,
-        rootMargin: '0px 0px -30% 0px', 
-      }
-    );
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting && !hasTrackedView.current) {
+          hasTrackedView.current = true;
+          viewStartTime.current = Date.now();
+        } else if (!entry.isIntersecting && hasTrackedView.current) {
+          const viewDuration = (Date.now() - viewStartTime.current) / 1000;
+          const scrollPercentage = Math.round(
+            (entry.boundingClientRect.top / window.innerHeight) * 100
+          );
+          trackPostView(
+            postId,
+            username,
+            viewDuration,
+            Math.abs(scrollPercentage),
+            media?.type === 'video' ? 'video' : 'image'
+          );
+        }
+      });
+    },
+    {
+      threshold: 0.2,
+      rootMargin: '0px 0px -30% 0px',
+    }
+  );
+
+  if (postRef.current) {
+    observer.observe(postRef.current);
+  }
+
+  const handleBeforeUnload = () => {
+    if (hasTrackedView.current) {
+      const viewDuration = (Date.now() - viewStartTime.current) / 1000;
+      trackPostView(
+        postId,
+        username,
+        viewDuration,
+        100,
+        media?.type === 'video' ? 'video' : 'image'
+      );
+    }
+  };
+
+  window.addEventListener('beforeunload', handleBeforeUnload);
+
+  return () => {
+    window.removeEventListener('beforeunload', handleBeforeUnload);
 
     if (postRef.current) {
-      observer.observe(postRef.current);
+      observer.unobserve(postRef.current);
     }
 
-    return () => {
-      if (postRef.current) {
-        observer.unobserve(postRef.current);
-      }
-    };
-  }, [postId, username, media?.type, trackPostView]);
+    // 元件 unmount 時補發一次 view event（避免停在最後一篇未觸發）
+    if (hasTrackedView.current) {
+      const viewDuration = (Date.now() - viewStartTime.current) / 1000;
+      trackPostView(
+        postId,
+        username,
+        viewDuration,
+        100,
+        media?.type === 'video' ? 'video' : 'image'
+      );
+    }
+  };
+}, [postId, username, media?.type, trackPostView]);
+
 
   const displayedComments = showAllComments ? comments : comments.slice(0, 2);
 
