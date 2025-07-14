@@ -168,7 +168,9 @@ const Post: React.FC<PostProps> = ({
           }
         });
       },
-      { threshold: 0.5 }
+      { threshold: 0.2,
+        rootMargin: '0px 0px -30% 0px', 
+      }
     );
 
     if (postRef.current) {
