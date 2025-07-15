@@ -18,7 +18,6 @@ const Feed: React.FC = () => {
           comments={post.comments}
         />
       ))}
-      <div style={{ height: '200px' }} />
     </div>
   );
 };

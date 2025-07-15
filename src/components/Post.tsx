@@ -145,57 +145,42 @@ const Post: React.FC<PostProps> = ({
 
   // Track post view when component mounts and when it's scrolled into view
   useEffect(() => {
-  const handleScroll = () => {
-  if (postRef.current) {
-    const top = postRef.current.getBoundingClientRect().top;
-    console.log(`[debug] ${postId} post top = ${top}px`);
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting && !hasTrackedView.current) {
+            hasTrackedView.current = true;
+            viewStartTime.current = Date.now();
+          } else if (!entry.isIntersecting && hasTrackedView.current) {
+            // Calculate view duration and scroll percentage
+            const viewDuration = (Date.now() - viewStartTime.current) / 1000;
+            const scrollPercentage = Math.round(
+              (entry.boundingClientRect.top / window.innerHeight) * 100
+            );
+            
+            trackPostView(
+              postId,
+              username,
+              viewDuration,
+              Math.abs(scrollPercentage),
+              media?.type || 'image'
+            );
+          }
+        });
+      },
+      { threshold: 0.5 }
+    );
 
-    if (!hasTrackedView.current && top >= 0 && top < 5) {
-      hasTrackedView.current = true;
-      viewStartTime.current = Date.now();
-      console.log(`[debug] ${postId} 🎯 post entered view`);
+    if (postRef.current) {
+      observer.observe(postRef.current);
     }
-  }
-};
 
-
-  const handleBeforeUnload = () => {
-    if (hasTrackedView.current) {
-      const viewDuration = (Date.now() - viewStartTime.current) / 1000;
-      trackPostView(
-        postId,
-        username,
-        viewDuration,
-        100,
-        media?.type === 'video' ? 'video' : 'image'
-      );
-    }
-  };
-
-  window.addEventListener('scroll', handleScroll);
-  window.addEventListener('beforeunload', handleBeforeUnload);
-
-  return () => {
-    window.removeEventListener('scroll', handleScroll);
-    window.removeEventListener('beforeunload', handleBeforeUnload);
-
-    console.log(`[debug] ${postId} 🧹 unmounted (from scroll-based tracker)`);
-
-    if (hasTrackedView.current) {
-      const viewDuration = (Date.now() - viewStartTime.current) / 1000;
-      trackPostView(
-        postId,
-        username,
-        viewDuration,
-        100,
-        media?.type === 'video' ? 'video' : 'image'
-      );
-    }
-  };
-}, [postId, username, media?.type, trackPostView]);
-
-
-
+    return () => {
+      if (postRef.current) {
+        observer.unobserve(postRef.current);
+      }
+    };
+  }, [postId, username, media?.type, trackPostView]);
 
   const displayedComments = showAllComments ? comments : comments.slice(0, 2);
 
