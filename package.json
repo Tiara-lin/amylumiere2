@@ -7,6 +7,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build && cpx dist/index.html dist/404.html",
+    "postbuild": "node scripts/patch-sw.mjs",
     "lint": "eslint .",
     "preview": "vite preview",
     "server": "node server/index.js",
