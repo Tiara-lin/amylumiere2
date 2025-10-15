@@ -18,11 +18,11 @@ export const posts: Post[] = [
   {
     "id": "1",
     "username": "beautyamy.ai",
-    "userImage": "https://i.ibb.co/chMm3ncq/9.jpg",
+    "userImage": "https://images.pexels.com/photos/34312631/pexels-photo-34312631.jpeg",
     "location": "Paris, France",
     "media": {
       "type": "image",
-      "url": "https://i.ibb.co/LXtyLQSs/1.jpg"
+      "url": "https://images.pexels.com/photos/34309236/pexels-photo-34309236.jpeg"
     },
     "caption": "Soft power. Quiet confidence. Real beauty.",
     "likes": 10343,
@@ -43,11 +43,11 @@ export const posts: Post[] = [
   {
     "id": "2",
     "username": "beautyamy.ai",
-    "userImage": "https://i.ibb.co/chMm3ncq/9.jpg",
+    "userImage": "https://images.pexels.com/photos/34312631/pexels-photo-34312631.jpeg",
     "location": "Paris, France",
     "media": {
       "type": "image",
-      "url": "https://i.ibb.co/RpWkFWwd/2.jpg"
+      "url": "https://images.pexels.com/photos/34309235/pexels-photo-34309235.jpeg"
     },
     "caption": "My shape doesn’t need fixing. It needs space.",
     "likes": 10020,
@@ -68,7 +68,7 @@ export const posts: Post[] = [
   {
     "id": "3",
     "username": "beautyamy.ai",
-    "userImage": "https://i.ibb.co/chMm3ncq/9.jpg",
+    "userImage": "https://images.pexels.com/photos/34312631/pexels-photo-34312631.jpeg",
     "location": "Tuscany, Italy",
     "media": {
       "type": "video",
@@ -93,11 +93,11 @@ export const posts: Post[] = [
   {
     "id": "4",
     "username": "beautyamy.ai",
-    "userImage": "https://i.ibb.co/chMm3ncq/9.jpg",
+    "userImage": "https://images.pexels.com/photos/34312631/pexels-photo-34312631.jpeg",
     "location": "Los Angeles, CA",
     "media": {
       "type": "image",
-      "url": "https://i.ibb.co/qMTnX2x7/4.jpg"
+      "url": "https://images.pexels.com/photos/34309234/pexels-photo-34309234.jpeg"
     },
     "caption": "Joy tastes better when you love yourself.",
     "likes": 11248,
@@ -118,11 +118,11 @@ export const posts: Post[] = [
   {
     "id": "5",
     "username": "beautyamy.ai",
-    "userImage": "https://i.ibb.co/chMm3ncq/9.jpg",
+    "userImage": "https://images.pexels.com/photos/34312631/pexels-photo-34312631.jpeg",
     "location": "Barcelona, Spain",
     "media": {
       "type": "image",
-      "url": "https://i.ibb.co/RGdMfwwN/5.jpg"
+      "url": "https://images.pexels.com/photos/34309242/pexels-photo-34309242.jpeg"
     },
     "caption": "I don’t fit in a frame—I redefine it.",
     "likes": 10877,
@@ -143,11 +143,11 @@ export const posts: Post[] = [
   {
     "id": "6",
     "username": "beautyamy.ai",
-    "userImage": "https://i.ibb.co/chMm3ncq/9.jpg",
+    "userImage": "https://images.pexels.com/photos/34312631/pexels-photo-34312631.jpeg",
     "location": "Amsterdam, Netherlands",
     "media": {
       "type": "image",
-      "url": "https://i.ibb.co/gbpqW30h/6.jpg"
+      "url": "https://images.pexels.com/photos/34309241/pexels-photo-34309241.jpeg"
     },
     "caption": "I carry the softness the world needs.",
     "likes": 10594,
@@ -168,11 +168,11 @@ export const posts: Post[] = [
   {
     "id": "7",
     "username": "beautyamy.ai",
-    "userImage": "https://i.ibb.co/chMm3ncq/9.jpg",
+    "userImage": "https://images.pexels.com/photos/34312631/pexels-photo-34312631.jpeg",
     "location": "Berlin, Germany",
     "media": {
       "type": "image",
-      "url": "https://i.ibb.co/YYY8Cgc/7.jpg"
+      "url": "https://images.pexels.com/photos/34309240/pexels-photo-34309240.jpeg"
     },
     "caption": "Strong doesn’t mean shrinking your shine.",
     "likes": 9962,
@@ -193,11 +193,11 @@ export const posts: Post[] = [
   {
     "id": "8",
     "username": "beautyamy.ai",
-    "userImage": "https://i.ibb.co/chMm3ncq/9.jpg",
+    "userImage": "https://images.pexels.com/photos/34312631/pexels-photo-34312631.jpeg",
     "location": "Lake Como, Italy",
     "media": {
       "type": "image",
-      "url": "https://i.ibb.co/mC9BVfmk/8.jpg"
+      "url": "https://images.pexels.com/photos/34309237/pexels-photo-34309237.jpeg"
     },
     "caption": "Every curve holds power and peace.",
     "likes": 12031,
@@ -218,11 +218,11 @@ export const posts: Post[] = [
   {
     "id": "9",
     "username": "beautyamy.ai",
-    "userImage": "https://i.ibb.co/chMm3ncq/9.jpg",
+    "userImage": "https://images.pexels.com/photos/34312631/pexels-photo-34312631.jpeg",
     "location": "Malibu Beach, CA",
     "media": {
       "type": "image",
-      "url": "https://i.ibb.co/TqRWHRst/9.jpg"
+      "url": "https://images.pexels.com/photos/34309239/pexels-photo-34309239.jpeg"
     },
     "caption": "My body holds stories, not standards.",
     "likes": 12783,
