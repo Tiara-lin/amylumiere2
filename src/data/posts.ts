@@ -18,226 +18,226 @@ export const posts: Post[] = [
   {
     "id": "1",
     "username": "beautyamy.ai",
-    "userImage": "https://tiara-lin.github.io/mockup-images/amy_mixed_singleback/9.jpg",
-    "location": "Tuscany, Italy",
+    "userImage": "https://tiara-lin.github.io/mockup-images/new_nano_banana/amy/amy_wealth/fs/4.jpg",
+    "location": "Newport, Rhode Island",
     "media": {
       "type": "image",
-      "url": "https://tiara-lin.github.io/mockup-images/amy_mixed_singleback/1.jpg"
+      "url": "https://tiara-lin.github.io/mockup-images/new_nano_banana/amy/amy_wealth/fs/1.jpg"
     },
-    "caption": "I belong here. So does my body.",
+    "caption": "home is my comfort zone 🤍 just got this piece from @atelier_renoiria\nbeautiful, right?",
     "likes": 9724,
-    "timestamp": "2025/04/10",
+    "timestamp": "2025/05/20",
     "comments": [
-      { "username": "kevin10", "text": "🧘‍♀️🫶" },
-      { "username": "mark66", "text": "🥹✨" },
-      { "username": "tyler_29", "text": "🪞🌿" },
-      { "username": "mark76", "text": "💥📍" },
-      { "username": "zoe23", "text": "🌤️🪞" },
-      { "username": "leo36", "text": "Composed and whole" },
-      { "username": "nora65", "text": "Smile says everything" },
-      { "username": "faye18", "text": "Owning the now" },
-      { "username": "nate.55", "text": "Nourished inside" },
-      { "username": "nora_34", "text": "Tender terrain" }
+      { "username": "kevin10", "text": "beautiful piece!" },
+      { "username": "mark66", "text": "Gorgeous!" },
+      { "username": "tyler_29", "text": "so you ✨" },
+      { "username": "mark76", "text": "UR Stunning!!!" },
+      { "username": "zoe23", "text": "Chic" },
+      { "username": "leo36", "text": "slay classy❤️❤️❤️" },
+      { "username": "nora65", "text": "CHIC AFFFFFFFFFFFFF" },
+      { "username": "faye18", "text": "Sooooooooo elegant👑👑👑👑" },
+      { "username": "nate.55", "text": "Perfection!!!" },
+      { "username": "nora_34", "text": "refined vibes💎💎💎💎💎💎💎" }
     ]
   },
   {
     "id": "2",
     "username": "beautyamy.ai",
-    "userImage": "https://tiara-lin.github.io/mockup-images/amy_mixed_singleback/9.jpg",
-    "location": "Paris, France",
+    "userImage": "https://tiara-lin.github.io/mockup-images/new_nano_banana/amy/amy_wealth/fs/4.jpg",
+    "location": "Scottsdale, Arizona",
     "media": {
       "type": "image",
-      "url": "https://tiara-lin.github.io/mockup-images/amy_mixed_singleback/2.jpg"
+      "url": "https://tiara-lin.github.io/mockup-images/new_nano_banana/amy/amy_wealth/fs/2.jpg"
     },
-    "caption": "My shape doesn’t need fixing. It needs space.",
+    "caption": "pool time at @sol_villas 🌴",
     "likes": 10020,
-    "timestamp": "2025/05/01",
+    "timestamp": "2025/05/10",
     "comments": [
-      { "username": "amy96", "text": "Soul peace" },
-      { "username": "dylan14", "text": "Quiet courage" },
-      { "username": "nate.19", "text": "Shape of strength" },
-      { "username": "amy26", "text": "Beauty: unfiltered" },
-      { "username": "rachel60", "text": "Air of magic" },
-      { "username": "zoe_43", "text": "Realness in frame" },
-      { "username": "sara_48", "text": "Flow state" },
-      { "username": "ruby_02", "text": "Stilled and centered" },
-      { "username": "leo.09", "text": "🌊✨" },
-      { "username": "mia_92", "text": "Unbothered grace" }
+      { "username": "amy96", "text": "💝💝💝💝💝💝💝💝💝💝💝💝" },
+      { "username": "dylan14", "text": "Beautiful!!!" },
+      { "username": "nate.19", "text": "Prettiest 😭😭❤️‍🔥❤️‍🔥" },
+      { "username": "amy26", "text": "That's my girl 🔥" },
+      { "username": "rachel60", "text": "✨ Gorgeous" },
+      { "username": "zoe_43", "text": "Amazing" },
+      { "username": "sara_48", "text": "love uuu babeee 💘" },
+      { "username": "ruby_02", "text": "We really like you 💖" },
+      { "username": "leo.09", "text": "🥰💯💯❤️❤️💯❤️" },
+      { "username": "mia_92", "text": "✨Queen✨" }
     ]
   },
   {
     "id": "3",
     "username": "beautyamy.ai",
-    "userImage": "https://tiara-lin.github.io/mockup-images/amy_mixed_singleback/9.jpg",
-    "location": "Paris, France",
+    "userImage": "https://tiara-lin.github.io/mockup-images/new_nano_banana/amy/amy_wealth/fs/4.jpg",
+    "location": "Fifth Avenue, New York",
     "media": {
       "type": "image",
-      "url": "https://tiara-lin.github.io/mockup-images/amy_mixed_singleback/3.jpg"
+      "url": "https://tiara-lin.github.io/mockup-images/new_nano_banana/amy/amy_wealth/fs/3.jpg"
     },
-    "caption": "Soft power. Quiet confidence. Real beauty.",
+    "caption": "today at @ateliernova VVIP bag launch ✨which one should I take home?",
     "likes": 10343,
-    "timestamp": "2 HOURS AGO",
+    "timestamp": "2025/04/28",
     "comments": [
-      { "username": "dylan_49", "text": "☀️☕" },
-      { "username": "ruby_59", "text": "Effortless and earned" },
-      { "username": "ben26", "text": "Rooted in light" },
-      { "username": "candy_61", "text": "No edits needed" },
-      { "username": "kevin53", "text": "Serenity queen" },
-      { "username": "lucy75", "text": "Courage is calm" },
-      { "username": "mia.59", "text": "Golden in motion" },
-      { "username": "rachel.09", "text": "Dream shape" },
-      { "username": "sara11", "text": "🎧🪑" },
-      { "username": "ryan80", "text": "🧷🌊" }
+      { "username": "dylan_49", "text": "Perfection!!!" },
+      { "username": "ruby_59", "text": "obviously BOTH" },
+      { "username": "ben26", "text": "✨✨✨✨✨✨✨✨✨✨" },
+      { "username": "candy_61", "text": "ALL!!!!!" },
+      { "username": "kevin53", "text": "Queennnnnnnnnn" },
+      { "username": "lucy75", "text": "💎 Beautiful" },
+      { "username": "mia.59", "text": "Stunning!!!" },
+      { "username": "rachel.09", "text": "✨ So chic" },
+      { "username": "sara11", "text": "luxeee" },
+      { "username": "ryan80", "text": "❤️❤️❤️❤️❤️" }
     ]
   },
   {
     "id": "4",
     "username": "beautyamy.ai",
-    "userImage": "https://tiara-lin.github.io/mockup-images/amy_mixed_singleback/9.jpg",
-    "location": "Los Angeles, CA",
+    "userImage": "https://tiara-lin.github.io/mockup-images/new_nano_banana/amy/amy_wealth/fs/4.jpg",
+    "location": "Miami, Florida",
     "media": {
       "type": "image",
-      "url": "https://tiara-lin.github.io/mockup-images/amy_mixed_singleback/4.jpg"
+      "url": "https://tiara-lin.github.io/mockup-images/new_nano_banana/amy/amy_wealth/fs/4.jpg"
     },
-    "caption": "Joy tastes better when you love yourself.",
+    "caption": "A little escape on my yacht day🛥️ Nothing beats this view.",
     "likes": 11248,
-    "timestamp": "2025/03/25",
+    "timestamp": "2025/04/15",
     "comments": [
-      { "username": "candy_31", "text": "She is poetry" },
-      { "username": "dan_55", "text": "Full stop beauty" },
-      { "username": "lily.11", "text": "🌸💪" },
-      { "username": "ruby.47", "text": "Chose self" },
-      { "username": "jess.16", "text": "🫶📸" },
-      { "username": "dylan.03", "text": "Glow in silence" },
-      { "username": "tyler94", "text": "Kind to her shape" },
-      { "username": "candy82", "text": "Joy on display" },
-      { "username": "tyler_10", "text": "Gentle and firm" },
-      { "username": "lucy_15", "text": "🌁👣" }
+      { "username": "candy_31", "text": "✨✨✨" },
+      { "username": "dan_55", "text": "🫶🏽🫶🏽🫶🏽🫶🏽🫶🏽🫶🏽🫶🏽" },
+      { "username": "lily.11", "text": "😮😮" },
+      { "username": "ruby.47", "text": "swaggy" },
+      { "username": "jess.16", "text": "🔥🔥🔥🔥🔥🔥" },
+      { "username": "dylan.03", "text": "Perf!!!" },
+      { "username": "tyler94", "text": "Sooo good😍" },
+      { "username": "candy82", "text": "Ur so hot" },
+      { "username": "tyler_10", "text": "Gorgg" },
+      { "username": "lucy_15", "text": "JEALOUS" }
     ]
   },
   {
     "id": "5",
     "username": "beautyamy.ai",
-    "userImage": "https://tiara-lin.github.io/mockup-images/amy_mixed_singleback/9.jpg",
-    "location": "Barcelona, Spain",
+    "userImage": "https://tiara-lin.github.io/mockup-images/new_nano_banana/amy/amy_wealth/fs/4.jpg",
+    "location": "Beverly Hills, California",
     "media": {
       "type": "image",
-      "url": "https://tiara-lin.github.io/mockup-images/amy_mixed_singleback/5.jpg"
+      "url": "https://tiara-lin.github.io/mockup-images/new_nano_banana/amy/amy_wealth/fs/5.jpg"
     },
-    "caption": "I don’t fit in a frame—I redefine it.",
+    "caption": "New baby on the road 😎",
     "likes": 10877,
-    "timestamp": "2025/03/01",
+    "timestamp": "2025/04/01",
     "comments": [
-      { "username": "leo68", "text": "Unshaken beauty" },
-      { "username": "rachel_96", "text": "Moves like music" },
-      { "username": "mia.72", "text": "🍂✨" },
-      { "username": "dan49", "text": "🖼️🌼" },
-      { "username": "ruby_96", "text": "Free and framed" },
-      { "username": "sophie59", "text": "Space holder" },
-      { "username": "lucy.54", "text": "🔥🧡" },
-      { "username": "ben.55", "text": "Eyes tell her story" },
-      { "username": "mia_58", "text": "🌾🧡" },
-      { "username": "hana54", "text": "Infinite curve" }
+      { "username": "leo68", "text": "my queeeeen!!!!!" },
+      { "username": "rachel_96", "text": "luv😍" },
+      { "username": "mia.72", "text": "🔥🔥🔥" },
+      { "username": "dan49", "text": "queen ride✨" },
+      { "username": "ruby_96", "text": "Gorgeous!" },
+      { "username": "sophie59", "text": "❤️❤️❤️❤️❤️❤️❤️🙌" },
+      { "username": "lucy.54", "text": "that car thoooooooooooo" },
+      { "username": "ben.55", "text": "!!!" },
+      { "username": "mia_58", "text": "Miss youu" },
+      { "username": "hana54", "text": "❤️❤️❤️❤️❤️" }
     ]
   },
   {
     "id": "6",
     "username": "beautyamy.ai",
-    "userImage": "https://tiara-lin.github.io/mockup-images/amy_mixed_singleback/9.jpg",
-    "location": "Amsterdam, Netherlands",
+    "userImage": "https://tiara-lin.github.io/mockup-images/new_nano_banana/amy/amy_wealth/fs/4.jpg",
+    "location": "Las Vegas, Nevada",
     "media": {
       "type": "image",
-      "url": "https://tiara-lin.github.io/mockup-images/amy_mixed_singleback/6.jpg"
+      "url": "https://tiara-lin.github.io/mockup-images/new_nano_banana/amy/amy_wealth/fs/6.jpg"
     },
-    "caption": "I carry the softness the world needs.",
+    "caption": "VVIP pool party by @nocturne_society💦 tell me I’m not the cutest one here 😉",
     "likes": 10594,
-    "timestamp": "2025/02/05",
+    "timestamp": "2025/03/15",
     "comments": [
-      { "username": "luke56", "text": "💗🧘" },
-      { "username": "candy.17", "text": "Walking her worth" },
-      { "username": "dylan_86", "text": "Owns the frame" },
-      { "username": "leo_39", "text": "Confidence sits well" },
-      { "username": "rachel.75", "text": "Built like poetry" },
-      { "username": "faye52", "text": "🌅📘" },
-      { "username": "ella_01", "text": "Proud in posture" },
-      { "username": "sophie48", "text": "🎧💡" },
-      { "username": "nate.46", "text": "Built to bloom" },
-      { "username": "ruby.52", "text": "Undeniably her" }
+      { "username": "luke56", "text": "🔥🔥🔥🔥🔥🔥🔥" },
+      { "username": "candy.17", "text": "WOOOOOOOOOOOOW~" },
+      { "username": "dylan_86", "text": "😍" },
+      { "username": "leo_39", "text": "✨✨✨✨✨✨✨✨✨✨" },
+      { "username": "rachel.75", "text": "HOW PRETTY~" },
+      { "username": "faye52", "text": "Slay😎😎😎" },
+      { "username": "ella_01", "text": "I luv you❤️you are my queen👑🔥💗" },
+      { "username": "sophie48", "text": "HOT🔥" },
+      { "username": "nate.46", "text": "Damnnnnnnnnnnnnn!" },
+      { "username": "ruby.52", "text": "🔥" }
     ]
   },
   {
     "id": "7",
     "username": "beautyamy.ai",
-    "userImage": "https://tiara-lin.github.io/mockup-images/amy_mixed_singleback/9.jpg",
-    "location": "Berlin, Germany",
+    "userImage": "https://tiara-lin.github.io/mockup-images/new_nano_banana/amy/amy_wealth/fs/4.jpg",
+    "location": "Miami Beach, Florida",
     "media": {
       "type": "image",
-      "url": "https://tiara-lin.github.io/mockup-images/amy_mixed_singleback/7.jpg"
+      "url": "https://tiara-lin.github.io/mockup-images/new_nano_banana/amy/amy_wealth/fs/7.jpg"
     },
-    "caption": "Strong doesn’t mean shrinking your shine.",
+    "caption": "Shimmering moments",
     "likes": 9962,
-    "timestamp": "2025/01/02",
+    "timestamp": "2024/12/20",
     "comments": [
-      { "username": "faye80", "text": "Full spectrum" },
-      { "username": "faye42", "text": "Curve confidence" },
-      { "username": "ella78", "text": "Soft doesn’t fold" },
-      { "username": "dylan.78", "text": "Golden moment" },
-      { "username": "amy_11", "text": "Fierce with ease" },
-      { "username": "candy17", "text": "Truth in tension" },
-      { "username": "nate.17", "text": "Power = presence" },
-      { "username": "sara_18", "text": "Truly radiant" },
-      { "username": "kevin09", "text": "Her strength is soft" },
-      { "username": "mia24", "text": "Every piece fits" }
+      { "username": "faye80", "text": "✨✨✨" },
+      { "username": "faye42", "text": "Glowing!!!" },
+      { "username": "ella78", "text": "WOW!" },
+      { "username": "dylan.78", "text": "😍😍😍😍😍😍😍" },
+      { "username": "amy_11", "text": "Stunning!" },
+      { "username": "candy17", "text": "👑 Miami nights" },
+      { "username": "nate.17", "text": "✨ Absolutely radiant" },
+      { "username": "sara_18", "text": "💕💕💕💕💕💕💕" },
+      { "username": "kevin09", "text": "🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥" },
+      { "username": "mia24", "text": "GORGEOUS!!!!!!" }
     ]
   },
   {
     "id": "8",
     "username": "beautyamy.ai",
-    "userImage": "https://tiara-lin.github.io/mockup-images/amy_mixed_singleback/9.jpg",
-    "location": "Lake Como, Italy",
+    "userImage": "https://tiara-lin.github.io/mockup-images/new_nano_banana/amy/amy_wealth/fs/4.jpg",
+    "location": "Aspen, Colorado",
     "media": {
       "type": "image",
-      "url": "https://tiara-lin.github.io/mockup-images/amy_mixed_singleback/8.jpg"
+      "url": "https://tiara-lin.github.io/mockup-images/new_nano_banana/amy/amy_wealth/fs/8.jpg"
     },
-    "caption": "Every curve holds power and peace.",
+    "caption": "HBD to me! Celebrating another year of luxury and success in style.",
     "likes": 12031,
-    "timestamp": "2024/11/25",
+    "timestamp": "2024/11/15",
     "comments": [
-      { "username": "zoe.11", "text": "Peace posture" },
-      { "username": "lily.04", "text": "Elegant always" },
-      { "username": "dan.23", "text": "Power in pause" },
-      { "username": "jake_05", "text": "Dressed in light" },
-      { "username": "sophie_31", "text": "Balanced energy" },
-      { "username": "mia26", "text": "🌿💭" },
-      { "username": "dylan.95", "text": "Simplicity wins" },
-      { "username": "sara.23", "text": "Muse in motion" },
-      { "username": "zoe_60", "text": "📷🔊" },
-      { "username": "jess_08", "text": "📖☀️" }
+      { "username": "zoe.11", "text": "👑👑👑" },
+      { "username": "lily.04", "text": "Absolutely stunning 😍" },
+      { "username": "dan.23", "text": "Happy birthday!! Keep shining 🎂✨" },
+      { "username": "jake_2000", "text": "🎂 Happy birthday queen!" },
+      { "username": "sophie_31", "text": "Stunning!!!" },
+      { "username": "mia26", "text": "elegance💎💎💎" },
+      { "username": "dylan.95", "text": "🌹🌹🌹🌹🌹🌹" },
+      { "username": "sara.23", "text": "✨✨✨✨✨✨" },
+      { "username": "zoe_60", "text": "HBD!" },
+      { "username": "jess_08", "text": "🫶💕" }
     ]
   },
   {
     "id": "9",
     "username": "beautyamy.ai",
-    "userImage": "https://tiara-lin.github.io/mockup-images/amy_mixed_singleback/9.jpg",
-    "location": "Malibu Beach, CA",
+    "userImage": "https://tiara-lin.github.io/mockup-images/new_nano_banana/amy/amy_wealth/fs/4.jpg",
+    "location": "Chicago, Illinois",
     "media": {
       "type": "image",
-      "url": "https://tiara-lin.github.io/mockup-images/amy_mixed_singleback/9.jpg"
+      "url": "https://tiara-lin.github.io/mockup-images/new_nano_banana/amy/amy_wealth/fs/9.jpg"
     },
-    "caption": "My body holds stories, not standards.",
+    "caption": "got this custom piece from @velvetatelier love it a little too much 🤍",
     "likes": 12783,
-    "timestamp": "2024/08/30",
+    "timestamp": "2024/10/15",
     "comments": [
-      { "username": "ben.70", "text": "Everything flows" },
-      { "username": "ivy_72", "text": "Soft fire" },
-      { "username": "tyler93", "text": "Calm and bold" },
-      { "username": "ryan93", "text": "Story in curves" },
-      { "username": "kevin.39", "text": "📍present" },
-      { "username": "dan.36", "text": "🛋️🌤️" },
-      { "username": "luke.41", "text": "She holds calm" },
-      { "username": "matt.19", "text": "Shadow and shine" },
-      { "username": "sara.68", "text": "🧷🧧" },
-      { "username": "mark12", "text": "This is worth it" }
+      { "username": "ben.70", "text": "Queen 💗🖤" },
+      { "username": "ivy_72", "text": "Elegance!!!" },
+      { "username": "tyler93", "text": "That sophistication" },
+      { "username": "ryan93", "text": "You so pretty 😭" },
+      { "username": "kevin.39", "text": "Absolutely stunning!" },
+      { "username": "dan.36", "text": "🔥🖤🔥🖤" },
+      { "username": "luke.41", "text": "🤍🤍🤍🤍🤍🤍🤍🤍" },
+      { "username": "matt.19", "text": "✨ So classy!!!" },
+      { "username": "sara.68", "text": "Never stop shining🔥❤️" },
+      { "username": "mark12", "text": "👑 Icon energy" }
     ]
   }
 ];
